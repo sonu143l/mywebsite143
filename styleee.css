@@ -1,0 +1,105 @@
+*{
+   margin: 0;
+   font font-family: Arial;
+}
+    
+.navbar{
+    height: 40px;
+    background-color:#00254e;
+    color:white;
+}
+.image1{
+  margin-top: 15px;
+}
+ul{
+    background-color:#00254e;
+    text-align: right; 
+	}
+    ul li{
+		
+		display:inline-block;
+		padding:10px;
+		color: #ECB200;       
+    cursor: pointer;
+    text-align: left; 
+	}
+  
+
+    .dropdown{display:none;}
+	
+		    ul li:hover .dropdown{
+			display:block;
+			position:absolute;
+            background-color:#00254e;
+			margin-left:-0.29cm;
+			margin-top:0.20	cm;
+		}
+		.dropdown ul{
+			margin:0;
+			padding:0;
+		}
+		
+		.dropdown ul li{
+			display:block;
+		}
+
+.login-box {
+    width: 30%;
+    padding: 20px;
+    margin: 50px auto;
+    background: #f0f0f0;
+    border: 1px solid;
+}
+
+.login-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px ;
+    border: 1px solid;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #0056b3;
+}
+
+footer {
+margin-top: 15px;
+}
+
+.foot-panel1{
+  background-color: #00254e;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 10px;
+}
+ul a {
+  display: block;
+  font-size: 13px;
+  margin-top: 10px;
+}
+ul p {
+   font-weight: bold;
+   color: #ec9337;
+}
